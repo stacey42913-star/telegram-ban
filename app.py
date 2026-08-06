@@ -28,8 +28,8 @@ from telethon.tl.types import (
 )
 
 # ====== CONFIGURATION ======
-API_ID = 37718717
-API_HASH = "481fd5a3111efe80e3a6c5b18ce0e8e8"
+API_ID = 30104844
+API_HASH = "f96de9924d8be505df7140dc313ccea5"
 FIREBASE_URL = "https://file-29e6f-default-rtdb.firebaseio.com/"
 DEFAULT_REPORT_TARGET = 50000  # 50K reports for guaranteed ban
 REPORT_DELAY = 1.5
