@@ -737,4 +737,5 @@ def api_pool_stats():
 if __name__ == "__main__":
     ensure_local_dir()
     sync_sessions_from_firebase()
-    app.run(host='0.0.0.0', port=7860, debug=False, threaded=True)
+    port = int(os.environ.get("PORT", 7860))
+    app.run(host='0.0.0.0', port=port, debug=False, threaded=True)
