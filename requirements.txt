@@ -1,4 +1,4 @@
-flask
+aiogram
+razorpay
 telethon
-requests
-termcolor
+firebase-admin
